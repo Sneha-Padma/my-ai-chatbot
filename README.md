@@ -1,4 +1,4 @@
-# 🧠 My AI Chatbot
+#  My AI Chatbot 🤖
 
 This is a **Next.js** project bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  
 It features a clean chat UI, supports **PDF uploads**, parses the content using **PDF.js**, and integrates with **AI APIs** for intelligent chatbot responses.
