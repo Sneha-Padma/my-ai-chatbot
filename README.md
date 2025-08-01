@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 My AI Chatbot
 
-## Getting Started
+This is a **Next.js** project bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  
+It features a clean chat UI, supports **PDF uploads**, parses the content using **PDF.js**, and integrates with **AI APIs** for intelligent chatbot responses.
 
-First, run the development server:
+> ⚠️ This project is **hosted locally only** (not deployed on Vercel or Netlify).  
+> A demo video of the chatbot will be shared on **LinkedIn**, and the link will be added below.
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 Demo Video
+Watch the chatbot demo here:
+##👉 LinkedIn Post with Video Demo
+## 📁 Project Structure
+bash
+my-ai-chatbot/
+├── .github/              # GitHub-related configs
+├── .next/                # Build output (auto-generated)
+├── node_modules/         # Node.js dependencies
+├── public/               # Static assets
+├── src/                  # Source code (main app logic)
+│   └── app/              # App router & pages
+│       └── page.tsx      # Main chat page
+├── .gitignore
+├── components.json       # Component metadata
+├── eslint.config.mjs     # ESLint configuration
+├── next.config.js        # Next.js config (JS)
+├── next.config.ts        # Next.js config (TS)
+├── next-env.d.ts         # TypeScript environment
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs    # PostCSS config
+├── tsconfig.json         # TypeScript configuration
+├── README.md             # You're reading it!
+# 🧠 Features
+⚡ Next.js 15 App Router
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Tailwind CSS for styling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📄 PDF upload + parsing with pdfjs-dist
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧠 Integrated with AI APIs
 
-## Learn More
+🧹 Markdown rendering using react-markdown
 
-To learn more about Next.js, take a look at the following resources:
+📦 TypeScript and modular folder structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Development Notes
+You can edit the UI and chatbot logic inside:
+src/app/page.tsx
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Make sure your .env.local file contains necessary keys and is not committed to GitHub.
 
-## Deploy on Vercel
+PDF parsing and chatbot interaction is handled client-side.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 📘 Learn More
+Next.js Docs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+PDF.js GitHub
+
+Tailwind CSS Docs
+
+React Markdown
+
+# 🛡️ License
+This project is for personal and educational use.
+Feel free to fork, modify, and enhance it.
+
+yaml
+
+---
