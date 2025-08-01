@@ -5,7 +5,7 @@ It features a clean chat UI, supports **PDF uploads**, parses the content using 
 
 > ⚠️ This project is **hosted locally only** (not deployed on Vercel or Netlify).  
 > A demo video of the chatbot will be shared on **LinkedIn**, and the link will be added below.
-
+(https://www.linkedin.com/posts/snehapadma1152588_nextjs-typescript-aichatbot-activity-7356914977431027712-QMVW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAECmL6IB28JmtJJjSQtpeDAXcor2vEjTGUM)
 ---
 
 ## 🚀 Getting Started
